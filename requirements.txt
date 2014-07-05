@@ -1,0 +1,4 @@
+celery
+librabbitmq
+nose
+pep8
