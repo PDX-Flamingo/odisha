@@ -6,10 +6,10 @@ from random import randint, uniform
 
 
 @app.task
-def random_list(job):
+def random_int(job):
 	print "Start " + str(job)
 	sleep(uniform(0,2))
-	return "Worker " + str(job) + ": Result " + str(randint(1, 100))
+	return randint(1, 100)
 
 @app.task
 def add(x, y):
