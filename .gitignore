@@ -1,6 +1,8 @@
 # Autoenv .env file
 .env
 
+# Projects
+codonpdx-python/
 
 # Created by http://www.gitignore.io
 
